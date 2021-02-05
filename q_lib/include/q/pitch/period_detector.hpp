@@ -21,7 +21,7 @@ namespace cycfi::q
    {
    public:
 
-      static constexpr float pulse_threshold = 0.6;
+      static constexpr float pulse_threshold = 0.1;
       static constexpr float harmonic_periodicity_factor = 16;
       static constexpr float periodicity_diff_factor = 0.8 / 100; // % of the midpoint
 
